@@ -1,0 +1,46 @@
+body {
+    font-family: "Akshar", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+      135deg,
+      #3498db,
+      #e74c3c
+    ); /* Gradient from blue to red */
+    color: #fff; /* Light text color */
+  }
+  
+  #results-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  /* Add other existing styles */
+  
+  #marks-container {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .vibrant {
+    background: linear-gradient(
+      135deg,
+      #3498db,
+      #e74c3c
+    ); /* Gradient from blue to red */
+  }
